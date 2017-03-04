@@ -16,27 +16,19 @@
 
 get_header(); ?>
 
-	<div id="primary" class="content-area">
-		<main id="main" class="site-main" role="main">
-		<?php if ( have_posts() ) :
+<div id="primary" class="content-area">
+    <main id="main" class="site-main" role="main">
+        <?php if (have_posts()) :
 
-			while ( have_posts() ) : the_post(); ?>
-			<h2><?php the_title(); ?></h2>
-			<?php the_content();
-				/*
-				 * Include the Post-Format-specific template for the content.
-				 * If you want to override this in a child theme, then include a file
-				 * called content-___.php (where ___ is the Post Format name) and that will be used instead.
-				 */
+            while (have_posts()) : the_post(); ?>
+                <h2><?php the_title(); ?></h2>
+                <?php the_content();
+            
+            endwhile;
+        endif;
+        ?>
 
-
-			// End the loop.
-			endwhile;
-		do_action('wp_enqueue_scripts');
-		endif;
-		?>
-
-		</main><!-- .site-main -->
-	</div><!-- .content-area -->
+    </main><!-- .site-main -->
+</div><!-- .content-area -->
 
 <?php get_footer(); ?>

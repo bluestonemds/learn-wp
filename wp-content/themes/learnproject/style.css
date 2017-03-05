@@ -2,11 +2,79 @@
 Theme Name: learningWordPress
 */
 
-.container {
-    margin:0 auto;
+@media screen and (min-width: 48em){
+    .container {
+        width:1150px;
+        margin-left:auto;
+        margin-right:auto;
+    }
 }
 
+html,
+.pure-g [class*=pure-u]{
+    font-family:"Helvetica Neue", "Luxi Sans", "DejaVu Sans", Tahoma, "Hiragino Sans GB", "Microsoft Yahei", sans-serif
+}
 
 .slider {
     background-color: #eeeeee;
+    padding:2em;
 }
+
+.column-three {
+    padding:4em;
+    background-color: #ffffff;
+    font-size:0.875em;
+    color:#444;
+}
+
+.column-three p{
+    line-height:1.66;
+}
+
+.column-three li{
+    margin-bottom:0.5em;
+    margin-left: 4em;
+}
+.column-three img {
+    display:block;
+    margin:0 auto;
+}
+
+.lanshi-nav {
+    background-color: #0077bb;
+}
+
+/*overwrite*/
+.pure-menu-link {
+    padding:1em 1.5em;
+    color:#bbe6ff;
+}
+
+.pure-menu-link:hover {
+    background-color: #0077bb;
+    color:#fff;
+}
+
+.comment {
+    padding:2em;
+    background-color: #f7f7f7;
+}
+.comment-left-line {
+    border-left:4px solid #e3e3e3;
+    padding-left:1.5em;
+}
+
+.comment-box {
+    padding:1.5em;
+    border:1px solid #e3e3e3;
+    color:#444;
+}
+
+.footer {
+    padding:2em 0;
+    margin-bottom:2em;
+    background-color: #f7f7f7;
+    color:#444;
+    font-size:0.75em;
+}
+

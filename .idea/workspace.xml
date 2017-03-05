@@ -2,23 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7914270a-3deb-4cca-9d34-f2457376e264" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wp-content/uploads/2017/03/About-150x150.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wp-content/uploads/2017/03/About.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wp-content/uploads/2017/03/Contact-150x150.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wp-content/uploads/2017/03/Contact.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wp-content/uploads/2017/03/Develope-150x150.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wp-content/uploads/2017/03/Develope.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wp-content/uploads/2017/03/new-jgz-150x150.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wp-content/uploads/2017/03/new-jgz-274x300.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wp-content/uploads/2017/03/new-jgz-768x840.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wp-content/uploads/2017/03/new-jgz.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test/test.xhtml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/learnproject/footer.php" afterPath="$PROJECT_DIR$/wp-content/themes/learnproject/footer.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/learnproject/functions.php" afterPath="$PROJECT_DIR$/wp-content/themes/learnproject/functions.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/learnproject/header.php" afterPath="$PROJECT_DIR$/wp-content/themes/learnproject/header.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/learnproject/index.php" afterPath="$PROJECT_DIR$/wp-content/themes/learnproject/index.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/learnproject/style.css" afterPath="$PROJECT_DIR$/wp-content/themes/learnproject/style.css" />
     </list>
     <ignored path="learn-wordpress.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -40,12 +25,14 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="index.php" pinned="false" current-in-tab="false">
+      <file leaf-file-name="index.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/wp-content/themes/learnproject/index.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="384">
-              <caret line="29" column="20" selection-start-line="29" selection-start-column="20" selection-end-line="29" selection-end-column="20" />
-              <folding />
+            <state relative-caret-position="96">
+              <caret line="17" column="12" selection-start-line="17" selection-start-column="12" selection-end-line="17" selection-end-column="12" />
+              <folding>
+                <element signature="e#6#471#0#PHP" expanded="false" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -64,11 +51,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="style.css" pinned="false" current-in-tab="true">
+      <file leaf-file-name="style.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/wp-content/themes/learnproject/style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1190">
-              <caret line="53" column="10" selection-start-line="53" selection-start-column="9" selection-end-line="53" selection-end-column="11" />
+            <state relative-caret-position="398">
+              <caret line="20" column="1" selection-start-line="20" selection-start-column="1" selection-end-line="20" selection-end-column="1" />
               <folding />
             </state>
           </provider>
@@ -150,9 +137,9 @@
         <option value="$PROJECT_DIR$/wp-content/themes/learnproject/functions.php" />
         <option value="$PROJECT_DIR$/test/test.xhtml" />
         <option value="$PROJECT_DIR$/wp-content/themes/learnproject/style.css" />
-        <option value="$PROJECT_DIR$/wp-content/themes/learnproject/index.php" />
         <option value="$PROJECT_DIR$/wp-content/themes/learnproject/header.php" />
         <option value="$PROJECT_DIR$/wp-content/themes/learnproject/footer.php" />
+        <option value="$PROJECT_DIR$/wp-content/themes/learnproject/index.php" />
       </list>
     </option>
   </component>
@@ -306,7 +293,7 @@
       <workItem from="1488464045316" duration="31000" />
       <workItem from="1488547901316" duration="4891000" />
       <workItem from="1488629800466" duration="2550000" />
-      <workItem from="1488681608555" duration="7314000" />
+      <workItem from="1488681608555" duration="8692000" />
     </task>
     <task id="LOCAL-00001" summary="3.2">
       <created>1488464059860</created>
@@ -329,11 +316,18 @@
       <option name="project" value="LOCAL" />
       <updated>1488639128080</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="display posts.">
+      <created>1488698598121</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1488698598121</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="18134000" />
+    <option name="totallyTimeSpent" value="19512000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1920" height="977" extended-state="6" />
@@ -341,6 +335,7 @@
     <layout>
       <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2630458" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -348,7 +343,6 @@
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -368,7 +362,8 @@
     <MESSAGE value="3.2" />
     <MESSAGE value="load css files" />
     <MESSAGE value="install slider plugin." />
-    <option name="LAST_COMMIT_MESSAGE" value="install slider plugin." />
+    <MESSAGE value="display posts." />
+    <option name="LAST_COMMIT_MESSAGE" value="display posts." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -410,7 +405,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="72">
           <caret line="16" column="5" selection-start-line="16" selection-start-column="5" selection-end-line="16" selection-end-column="5" />
-          <folding />
+          <folding>
+            <element signature="e#6#471#0#PHP" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -499,7 +496,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="72">
           <caret line="16" column="5" selection-start-line="16" selection-start-column="5" selection-end-line="16" selection-end-column="5" />
-          <folding />
+          <folding>
+            <element signature="e#6#471#0#PHP" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -798,26 +797,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/learnproject/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="384">
-          <caret line="29" column="20" selection-start-line="29" selection-start-column="20" selection-end-line="29" selection-end-column="20" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/learnproject/header.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1128">
-          <caret line="47" column="20" selection-start-line="47" selection-start-column="20" selection-end-line="47" selection-end-column="20" />
-          <folding>
-            <element signature="e#6#55#0#PHP" expanded="true" />
-            <marker date="1488698538000" expanded="true" signature="842:913" placeholder="..." />
-            <marker date="1488698538000" expanded="true" signature="940:2342" placeholder="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/wp-content/themes/learnproject/functions.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="360">
@@ -836,9 +815,31 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/wp-content/themes/learnproject/style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1190">
-          <caret line="53" column="10" selection-start-line="53" selection-start-column="9" selection-end-line="53" selection-end-column="11" />
+        <state relative-caret-position="398">
+          <caret line="20" column="1" selection-start-line="20" selection-start-column="1" selection-end-line="20" selection-end-column="1" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/learnproject/header.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1128">
+          <caret line="47" column="20" selection-start-line="47" selection-start-column="20" selection-end-line="47" selection-end-column="20" />
+          <folding>
+            <element signature="e#6#55#0#PHP" expanded="true" />
+            <marker date="1488698538000" expanded="true" signature="842:913" placeholder="..." />
+            <marker date="1488698538000" expanded="true" signature="940:2342" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/learnproject/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="96">
+          <caret line="17" column="12" selection-start-line="17" selection-start-column="12" selection-end-line="17" selection-end-column="12" />
+          <folding>
+            <element signature="e#6#471#0#PHP" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>

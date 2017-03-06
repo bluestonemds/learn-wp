@@ -14,3 +14,5 @@ function add_menuclass($ulclass) {
 }
 add_filter('wp_nav_menu','add_menuclass');
 
+add_theme_support( 'post-thumbnails' );
+

@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7914270a-3deb-4cca-9d34-f2457376e264" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sql/wordpress_2017-03-05.sql" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/learnproject/index.php" afterPath="$PROJECT_DIR$/wp-content/themes/learnproject/index.php" />
     </list>
     <ignored path="learn-wordpress.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -40,11 +40,10 @@
       <file leaf-file-name="header.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/wp-content/themes/learnproject/header.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1128">
+            <state relative-caret-position="1080">
               <caret line="47" column="20" selection-start-line="47" selection-start-column="20" selection-end-line="47" selection-end-column="20" />
               <folding>
                 <element signature="e#6#55#0#PHP" expanded="true" />
-                <marker date="1488698538000" expanded="true" signature="842:913" placeholder="..." />
                 <marker date="1488698538000" expanded="true" signature="940:2342" placeholder="..." />
               </folding>
             </state>
@@ -54,7 +53,7 @@
       <file leaf-file-name="style.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/wp-content/themes/learnproject/style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="398">
+            <state relative-caret-position="480">
               <caret line="20" column="1" selection-start-line="20" selection-start-column="1" selection-end-line="20" selection-end-column="1" />
               <folding />
             </state>
@@ -64,7 +63,7 @@
       <file leaf-file-name="test.xhtml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/test/test.xhtml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="422">
+            <state relative-caret-position="672">
               <caret line="28" column="9" selection-start-line="28" selection-start-column="9" selection-end-line="28" selection-end-column="9" />
               <folding />
             </state>
@@ -94,7 +93,7 @@
       <file leaf-file-name="general-template.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/wp-includes/general-template.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="430">
+            <state relative-caret-position="62016">
               <caret line="2589" column="24" selection-start-line="2589" selection-start-column="24" selection-end-line="2589" selection-end-column="24" />
               <folding>
                 <marker date="1479667590000" expanded="true" signature="28836:28849" placeholder="..." />
@@ -179,6 +178,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scratches" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -227,8 +228,6 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
-      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -293,7 +292,8 @@
       <workItem from="1488464045316" duration="31000" />
       <workItem from="1488547901316" duration="4891000" />
       <workItem from="1488629800466" duration="2550000" />
-      <workItem from="1488681608555" duration="8692000" />
+      <workItem from="1488681608555" duration="8704000" />
+      <workItem from="1488790789027" duration="10000" />
     </task>
     <task id="LOCAL-00001" summary="3.2">
       <created>1488464059860</created>
@@ -323,19 +323,25 @@
       <option name="project" value="LOCAL" />
       <updated>1488698598121</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="display posts.">
+      <created>1488716433907</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1488716433907</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="19512000" />
+    <option name="totallyTimeSpent" value="19534000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1920" height="977" extended-state="6" />
     <editor active="false" />
     <layout>
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2630458" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2657082" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -343,6 +349,7 @@
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -381,9 +388,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="7848">
           <caret line="332" column="43" selection-start-line="332" selection-start-column="43" selection-end-line="332" selection-end-column="43" />
-          <folding>
-            <marker date="1483575336000" expanded="true" signature="94529:94676" placeholder="..." />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -440,7 +444,6 @@
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="e#6#55#0#PHP" expanded="true" />
-            <marker date="1488698538000" expanded="true" signature="842:913" placeholder="..." />
             <marker date="1488698538000" expanded="true" signature="940:2342" placeholder="..." />
           </folding>
         </state>
@@ -472,9 +475,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="7848">
           <caret line="332" column="43" selection-start-line="332" selection-start-column="43" selection-end-line="332" selection-end-column="43" />
-          <folding>
-            <marker date="1483575336000" expanded="true" signature="94529:94676" placeholder="..." />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -531,7 +531,6 @@
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="e#6#55#0#PHP" expanded="true" />
-            <marker date="1488698538000" expanded="true" signature="842:913" placeholder="..." />
             <marker date="1488698538000" expanded="true" signature="940:2342" placeholder="..." />
           </folding>
         </state>
@@ -578,7 +577,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="213">
           <caret line="11" column="0" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -596,7 +594,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="119">
           <caret line="420" column="9" selection-start-line="420" selection-start-column="9" selection-end-line="420" selection-end-column="9" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -618,7 +615,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="287">
           <caret line="776" column="9" selection-start-line="776" selection-start-column="9" selection-end-line="776" selection-end-column="9" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -626,9 +622,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="815">
           <caret line="2212" column="9" selection-start-line="2212" selection-start-column="9" selection-end-line="2212" selection-end-column="9" />
-          <folding>
-            <marker date="1483575336000" expanded="true" signature="94529:94676" placeholder="..." />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -636,19 +629,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="287">
           <caret line="276" column="9" selection-start-line="276" selection-start-column="9" selection-end-line="276" selection-end-column="9" />
-          <folding>
-            <marker date="1483050274000" expanded="true" signature="64514:64872" placeholder="..." />
-            <marker date="1483050274000" expanded="true" signature="64532:64556" placeholder="{...}" />
-            <marker date="1483050274000" expanded="true" signature="64587:64686" placeholder="{...}" />
-            <marker date="1483050274000" expanded="true" signature="64707:64744" placeholder="{...}" />
-            <marker date="1483050274000" expanded="true" signature="64778:64804" placeholder="{...}" />
-            <marker date="1483050274000" expanded="true" signature="66697:66708" placeholder="..." />
-            <marker date="1483050274000" expanded="false" signature="66810:66821" placeholder="..." />
-            <marker date="1483050274000" expanded="true" signature="115901:116008" placeholder="SELECT ID FR... ${$wpdb-&gt;posts}" />
-            <marker date="1483050274000" expanded="true" signature="116049:116156" placeholder="SELECT ID FR... ${$wpdb-&gt;posts}" />
-            <marker date="1483050274000" expanded="true" signature="116214:116353" placeholder="SELECT DISTI... ${$wpdb-&gt;posts}" />
-            <marker date="1483050274000" expanded="true" signature="133053:133145" placeholder="SELECT post_... ${$wpdb-&gt;postmeta}" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -664,7 +644,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="792">
           <caret line="448" column="0" selection-start-line="448" selection-start-column="0" selection-end-line="448" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -679,7 +658,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="647">
           <caret line="228" column="9" selection-start-line="228" selection-start-column="9" selection-end-line="228" selection-end-column="9" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -701,7 +679,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="240">
           <caret line="10" column="28" selection-start-line="0" selection-start-column="0" selection-end-line="10" selection-end-column="16213" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -730,7 +707,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -738,7 +714,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1488">
           <caret line="79" column="24" selection-start-line="79" selection-start-column="24" selection-end-line="79" selection-end-column="24" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -746,7 +721,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -754,7 +728,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -762,13 +735,12 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="287">
           <caret line="47" column="9" selection-start-line="47" selection-start-column="9" selection-end-line="47" selection-end-column="9" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/wp-includes/general-template.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="430">
+        <state relative-caret-position="62016">
           <caret line="2589" column="24" selection-start-line="2589" selection-start-column="24" selection-end-line="2589" selection-end-column="24" />
           <folding>
             <marker date="1479667590000" expanded="true" signature="28836:28849" placeholder="..." />
@@ -791,7 +763,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/test/test.xhtml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="422">
+        <state relative-caret-position="672">
           <caret line="28" column="9" selection-start-line="28" selection-start-column="9" selection-end-line="28" selection-end-column="9" />
           <folding />
         </state>
@@ -815,7 +787,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/wp-content/themes/learnproject/style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="398">
+        <state relative-caret-position="480">
           <caret line="20" column="1" selection-start-line="20" selection-start-column="1" selection-end-line="20" selection-end-column="1" />
           <folding />
         </state>
@@ -823,11 +795,10 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/wp-content/themes/learnproject/header.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1128">
+        <state relative-caret-position="1080">
           <caret line="47" column="20" selection-start-line="47" selection-start-column="20" selection-end-line="47" selection-end-column="20" />
           <folding>
             <element signature="e#6#55#0#PHP" expanded="true" />
-            <marker date="1488698538000" expanded="true" signature="842:913" placeholder="..." />
             <marker date="1488698538000" expanded="true" signature="940:2342" placeholder="..." />
           </folding>
         </state>

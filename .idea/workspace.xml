@@ -2,26 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7914270a-3deb-4cca-9d34-f2457376e264" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wp-content/uploads/2017/03/233826a67be66a810b23a263230da62e_Generic-150x150.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wp-content/uploads/2017/03/233826a67be66a810b23a263230da62e_Generic.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wp-content/uploads/2017/03/af2ef6a0e2c9c528b09655df79f3b312_Generic-150x150.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wp-content/uploads/2017/03/af2ef6a0e2c9c528b09655df79f3b312_Generic.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wp-content/uploads/2017/03/fbmuye-150x150.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wp-content/uploads/2017/03/fbmuye-165x300.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wp-content/uploads/2017/03/fbmuye-563x1024.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wp-content/uploads/2017/03/fbmuye-768x1397.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wp-content/uploads/2017/03/fbmuye.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wp-content/uploads/2017/03/feb4274796d93ff716e9650163a77fb8_Generic-150x150.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wp-content/uploads/2017/03/feb4274796d93ff716e9650163a77fb8_Generic.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wp-content/uploads/2017/03/qiurui-150x150.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wp-content/uploads/2017/03/qiurui-194x300.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wp-content/uploads/2017/03/qiurui-661x1024.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wp-content/uploads/2017/03/qiurui-768x1189.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wp-content/uploads/2017/03/qiurui.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SQL/wordpress_2017-03-06.sql" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sql/wordpress_2017-03-05.sql" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/learnproject/functions.php" afterPath="$PROJECT_DIR$/wp-content/themes/learnproject/functions.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/learnproject/index.php" afterPath="$PROJECT_DIR$/wp-content/themes/learnproject/index.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/learnproject/style.css" afterPath="$PROJECT_DIR$/wp-content/themes/learnproject/style.css" />
     </list>
     <ignored path="learn-wordpress.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -68,11 +51,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="style.css" pinned="false" current-in-tab="true">
+      <file leaf-file-name="style.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/wp-content/themes/learnproject/style.css">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="240">
               <caret line="10" column="0" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="wordpress_2017-03-06.sql" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/SQL/wordpress_2017-03-06.sql">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -293,6 +286,20 @@
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="learn-wordpress" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="learn-wordpress" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="SQL" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
       <pane id="Scope" />
@@ -310,6 +317,9 @@
     <property name="DefaultHtmlFileTemplate" value="XHTML File" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/SQL" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/wp-content/themes/learnproject" />
     </key>
@@ -363,7 +373,7 @@
       <workItem from="1488681608555" duration="8704000" />
       <workItem from="1488790789027" duration="337000" />
       <workItem from="1488791186420" duration="641000" />
-      <workItem from="1488808590056" duration="1255000" />
+      <workItem from="1488808590056" duration="1382000" />
     </task>
     <task id="LOCAL-00001" summary="3.2">
       <created>1488464059860</created>
@@ -407,11 +417,18 @@
       <option name="project" value="LOCAL" />
       <updated>1488790802111</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="continue to create my website.">
+      <created>1488810261835</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1488810261835</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="21757000" />
+    <option name="totallyTimeSpent" value="21884000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1920" height="977" extended-state="6" />
@@ -419,6 +436,7 @@
     <layout>
       <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.27103302" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -426,7 +444,6 @@
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -447,20 +464,14 @@
     <MESSAGE value="load css files" />
     <MESSAGE value="install slider plugin." />
     <MESSAGE value="display posts." />
-    <option name="LAST_COMMIT_MESSAGE" value="display posts." />
+    <MESSAGE value="continue to create my website." />
+    <option name="LAST_COMMIT_MESSAGE" value="continue to create my website." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/wp-includes/theme.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="7848">
-          <caret line="332" column="43" selection-start-line="332" selection-start-column="43" selection-end-line="332" selection-end-column="43" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/wp-content/themes/twentyseventeen/front-page.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="72">
@@ -888,6 +899,14 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="240">
           <caret line="10" column="0" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SQL/wordpress_2017-03-06.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>

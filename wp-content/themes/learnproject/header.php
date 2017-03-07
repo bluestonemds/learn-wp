@@ -25,10 +25,14 @@
             ); ?>
         </div>
     </div>
+    <?php if (is_home()): ?>
     <div class="slider">
         <?php echo do_shortcode("[espro-slider id=48]"); ?>
     </div>
+    <?php endif; ?>
 </header>
+
+<?php if (is_home()): ?>
 <div class="">
     <section class="column-three">
         <div class="container">
@@ -61,5 +65,6 @@
             </div>
         </div>
     </section>
+    <?php endif; ?>
 
 

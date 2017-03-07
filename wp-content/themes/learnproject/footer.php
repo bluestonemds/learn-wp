@@ -9,14 +9,16 @@
  * @since Twenty Sixteen 1.0
  */
 ?>
-<section class="comment">
-    <div class="container comment-box">
-        <div class="comment-left-line">
-            <p>“ 蓝石电脑工作室为我们电视台设计的网站，运行稳定，服务及时，有什么疑难问题都能得到回应，是我们很好的合作伙伴。”</p>
-            <small>梨树广播电视台-网站</small>
+<?php if (is_home()): ?>
+    <section class="comment">
+        <div class="container comment-box">
+            <div class="comment-left-line">
+                <p>“ 蓝石电脑工作室为我们电视台设计的网站，运行稳定，服务及时，有什么疑难问题都能得到回应，是我们很好的合作伙伴。”</p>
+                <small>梨树广播电视台-网站</small>
+            </div>
         </div>
-    </div>
-</section>
+    </section>
+<?php endif; ?>
 <footer class="footer">
     <div class="container">
         <p>©2012-2015 蓝石电脑工作室 服务电话:13630999990 备案号：吉ICP备15001193号</p>

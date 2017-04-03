@@ -17,11 +17,10 @@ get_header(); ?>
 <div class="product-list">
     <div class="container">
         <h3>函数测试区</h3>
-        <?php var_dump(have_posts()) ?>
+        <?php  var_dump($catalogue)?>
     </div>
     <div class="container">
         <?php
-        if (is_home()):
             if (have_posts()) :
                 ?>
                 <div class="pure-g">
@@ -34,14 +33,6 @@ get_header(); ?>
                 </div>
                 <?php
             endif;
-        else:
-            if (have_posts()):
-                while (have_posts()):the_post(); ?>
-                    <a href="<?php echo get_permalink($post->ID) ?>"><h2><?php the_title(); ?></h2></a>
-                    <?php the_content();
-                endwhile;
-            endif;
-        endif;
         ?>
     </div>
 </div>

@@ -3,8 +3,9 @@
 
 function learningWordPress_resources()
 {
-    wp_enqueue_style("grids_responsive", get_template_directory_uri() . '/assets/css/grids-responsive-min.css');
     wp_enqueue_style("pure", get_template_directory_uri() . '/assets/css/pure-min.css');
+    wp_enqueue_style("grids_responsive", get_template_directory_uri() . '/assets/css/grids-responsive-min.css');
+    wp_enqueue_style("awefont", get_template_directory_uri() . '/assets/css/font-awesome.min.css');
     wp_enqueue_style("style", get_stylesheet_uri());
 }
 

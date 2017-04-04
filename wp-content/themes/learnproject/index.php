@@ -16,10 +16,6 @@
 get_header(); ?>
 <div class="product-list">
     <div class="container">
-        <h3>函数测试区</h3>
-        <?php  var_dump($catalogue)?>
-    </div>
-    <div class="container">
         <?php
             if (have_posts()) :
                 ?>

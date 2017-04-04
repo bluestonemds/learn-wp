@@ -15,22 +15,38 @@
  */
 get_header(); ?>
 <div class="container">
-    <?php
-    $cat_id = '16';
-    $posts_to_show = '10'; // number of posts from the category you want to show on homepage
-    //query_posts("cat=$cat_ID&showposts=$posts_to_show");
-    $category_posts = new WP_Query("cat=$cat_id&showposts=$posts_to_show");
-    if (have_posts()) :
-        ?>
-        <div class="pure-g">
-            <div class="pure-u-1">
-                <h3><?php echo $post->post_title; ?></h3>
-                <?php echo $post->post_content; ?>
+    <div class="pure-g">
+        <div class="pure-u-4-5">
+            <?php
+            $cat_id = '16';
+            $posts_to_show = '10'; // number of posts from the category you want to show on homepage
+            //query_posts("cat=$cat_ID&showposts=$posts_to_show");
+            $category_posts = new WP_Query("cat=$cat_id&showposts=$posts_to_show");
+            var_dump($category_posts);
+            if (have_posts()) :
+                while (have_posts()) : the_post();
+                    ?>
+                    <div class="pure-g">
+                        <div class="pure-u-1">
+                            <?php if (has_excerpt()) : ?>
+                                <div class="<?php echo $class; ?>">
+                                    <?php the_excerpt(); ?>
+                                </div><!-- .<?php echo $class; ?> -->
+                            <?php endif; ?>
+                            <h3><?php echo $post->post_title; ?></h3>
+                            <?php echo $post->post_content; ?>
+                        </div>
+                    </div>
+                    <?php
+                endwhile;
+            endif;
+            ?>
+        </div>
+        <div class="pure-u-1-5">
+            <div class="sidebar">
+                <?php dynamic_sidebar(); ?>
             </div>
         </div>
-        <?php
-    endif;
-    ?>
-</div>
+    </div>
 
-<?php get_footer(); ?>
+    <?php get_footer(); ?>

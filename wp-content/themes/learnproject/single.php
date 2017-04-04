@@ -14,24 +14,26 @@
  * @since Twenty Sixteen 1.0
  */
 get_header(); ?>
-<div class="product-list">
-    <div class="container">
+    <article class="container">
         <?php
         if (have_posts()) :
             ?>
             <div class="pure-g">
-                <?php while (have_posts()) : the_post();
-                    ?>
-                    <div class="pure-u-sm-1 pure-u-md-1-3 product-thumbnail center">
-                        <a href="<?php echo get_permalink($post->ID) ?>"><?php the_post_thumbnail(); ?></a>
-                        <div><a href="<?php echo get_permalink($post->ID) ?>"><?php the_title(); ?></a></div>
+                <?php while (have_posts()) : the_post(); ?>
+                    <div class="pure-u-1">
+                        <a href="<?php echo get_permalink($post->ID) ?>"><?php the_title('<h2 class="entry-title">', '</h2>'); ?></a>
+                        <div class="publish-date">发布日期:<?php echo date('Y年m月d日',strtotime($post->post_date)); ?></div>
+                        <div class="content">
+                         <?php the_content();
+                         wp_link_pages();
+                         ?>
+                        </div>
                     </div>
                 <?php endwhile; ?>
             </div>
             <?php
         endif;
         ?>
-    </div>
-</div>
+    </article>
 
 <?php get_footer(); ?>

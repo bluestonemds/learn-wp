@@ -21,6 +21,13 @@ a {
     text-decoration: none;
 }
 
+body  {
+    color:#444;
+}
+
+a:hover{
+    color:#0077bb;
+}
 .center {
     text-align: center;
 }
@@ -103,3 +110,22 @@ a {
     font-size:1em;
 }
 
+.sidebar {
+    list-style: none;
+    padding: 0.75em;
+    background-color: #f7f7f7;
+}
+
+.sidebar img{
+    display:block;
+    margin:0 auto 1em auto;
+}
+
+.content {
+    color:#444;
+}
+.publish-date {
+    color:lightslategray;
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 0.75em;
+}

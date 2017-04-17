@@ -14,9 +14,8 @@
  * @since Twenty Sixteen 1.0
  */
 get_header(); ?>
-<div class="container">
     <div class="pure-g">
-        <div class="pure-u-md-4-5 pure-u-sm-1-1">
+        <div class="content pure-u-md-4-5 pure-u-sm-1-1">
             <?php
 //            $cat_id = '16';
 //            $posts_to_show = '10'; // number of posts from the category you want to show on homepage
@@ -43,6 +42,6 @@ get_header(); ?>
                 <?php dynamic_sidebar(); ?>
             </div>
         </div>
-    </div>
+        </div>
 
     <?php get_footer(); ?>

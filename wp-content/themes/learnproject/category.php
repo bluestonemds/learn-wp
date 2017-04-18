@@ -17,18 +17,19 @@ get_header(); ?>
 <div class="product-list">
     <div class="container">
         <?php
-            if (have_posts()) :
-                ?>
-                <div class="pure-g">
-                    <?php while (have_posts()) : the_post(); ?>
-                        <div class="pure-u-sm-1 pure-u-md-1-3 product-thumbnail center">
-                            <a href="<?php echo get_permalink($post->ID) ?>"><?php the_post_thumbnail(); ?></a>
-                            <div><a href="<?php echo get_permalink($post->ID) ?>"><?php the_title(); ?></a></div>
-                        </div>
-                    <?php endwhile; ?>
-                </div>
-                <?php
-            endif;
+        if (have_posts()) :
+            ?>
+            <div class="pure-g">
+                <?php while (have_posts()) : the_post();
+                    ?>
+                    <div class="pure-u-sm-1 pure-u-md-1-3 product-thumbnail center">
+                        <a href="<?php echo get_permalink($post->ID) ?>"><?php the_post_thumbnail(); ?></a>
+                        <div><a href="<?php echo get_permalink($post->ID) ?>"><?php the_title(); ?></a></div>
+                    </div>
+                <?php endwhile; ?>
+            </div>
+            <?php
+        endif;
         ?>
     </div>
 </div>

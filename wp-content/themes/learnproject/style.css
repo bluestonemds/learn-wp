@@ -2,42 +2,66 @@
 Theme Name: learningWordPress
 */
 
-@media screen and (min-width: 48em){
-    .container {
-        width:1150px;
-        margin-left:auto;
-        margin-right:auto;
-    }
+html,
+.pure-g [class*=pure-u] {
+    font-family: "Helvetica Neue", "Luxi Sans", "DejaVu Sans", Tahoma, "Hiragino Sans GB", "Microsoft Yahei", sans-serif
 }
 
-html,
-.pure-g [class*=pure-u]{
-    font-family:"Helvetica Neue", "Luxi Sans", "DejaVu Sans", Tahoma, "Hiragino Sans GB", "Microsoft Yahei", sans-serif
+.content {
+    padding-left: 1em;
+    padding-right: 1em;
+    box-sizing: border-box;
+}
+
+.sidebar {
+    display: none;
+}
+
+.main {
+}
+
+a {
+    font-size: 1em;
+    color: #333;
+    text-decoration: none;
+}
+
+body {
+    color: rgba(0, 0, 0, .8);
+}
+
+a:hover {
+    color: #0077bb;
+}
+
+.center {
+    text-align: center;
 }
 
 .slider {
-    background-color: #eeeeee;
-    padding:2em;
+    background-color: #f7f7f7;
+    padding: 2em;
 }
 
 .column-three {
-    padding:4em;
+    padding: 4em;
     background-color: #ffffff;
-    font-size:0.875em;
-    color:#444;
+    font-size: 0.875em;
+    color: #444;
 }
 
-.column-three p{
-    line-height:1.66;
+.column-three p {
+    line-height: 1.66;
 }
 
-.column-three li{
-    margin-bottom:0.5em;
+.column-three li {
+    margin-bottom: 0.5em;
     margin-left: 4em;
 }
+
 .column-three img {
-    display:block;
-    margin:0 auto;
+    display: block;
+    margin: 0 auto;
 }
 
 .lanshi-nav {
@@ -46,35 +70,103 @@ html,
 
 /*overwrite*/
 .pure-menu-link {
-    padding:1em 1.5em;
-    color:#bbe6ff;
+    padding: 1em 1.5em;
+    color: #bbe6ff;
 }
 
 .pure-menu-link:hover {
     background-color: #0077bb;
-    color:#fff;
+    color: #fff;
+}
+
+.product-list {
+    background-color: #f7f7f7;
+}
+
+.product-thumbnail {
+    padding: 2em;
+    box-sizing: border-box;
+}
+
+.product-thumbnail img {
+    border: 1px solid #fff;
+    padding: 0.5em;
+    background-color: #fff;
 }
 
 .comment {
-    padding:2em;
-    background-color: #f7f7f7;
+    padding: 2em;
+    background-color: #ffffff;
 }
+
 .comment-left-line {
-    border-left:4px solid #e3e3e3;
-    padding-left:1.5em;
+    border-left: 4px solid #e3e3e3;
+    padding-left: 1.5em;
 }
 
 .comment-box {
-    padding:1.5em;
-    border:1px solid #e3e3e3;
-    color:#444;
+    padding: 1.5em;
+    border: 1px solid #e3e3e3;
+    color: #444;
 }
 
 .footer {
-    padding:2em 0;
-    margin-bottom:2em;
-    background-color: #f7f7f7;
-    color:#444;
-    font-size:0.75em;
+    text-align: center;
+    padding: 2em 0;
+    margin-bottom: 2em;
+    background-color: #eeeeee;
+    color: #444;
+    font-size: 1em;
 }
 
+.sidebar {
+    list-style: none;
+    padding: 0.75em;
+}
+
+.sidebar img {
+    display: block;
+    margin-bottom: 1em;
+}
+
+.content-area {
+    border-bottom: 1px solid #ccc;
+}
+
+.publish-date {
+    color: lightslategray;
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 0.75em;
+}
+
+.time {
+    color: #aaa;
+    font-size: 0.75em;
+}
+
+.contact-me {
+    padding-left: 0;
+}
+
+.contact-me li {
+    display: inline-block;
+    list-style: none;
+    font-size: 1.5em;
+    margin-right: 0.5em;
+}
+
+.contact-me li a {
+    color: rgba(0, 0, 0, .6);
+}
+
+@media screen and (min-width: 48em) {
+    .content {
+        padding-left: 5em;
+        padding-right: 5em;
+        box-sizing: border-box;
+    }
+
+    .sidebar {
+        display: block;
+    }
+}

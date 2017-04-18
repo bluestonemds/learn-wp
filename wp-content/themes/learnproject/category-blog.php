@@ -14,24 +14,26 @@
  * @since Twenty Sixteen 1.0
  */
 get_header(); ?>
-    <div class="container">
-        <?php
-        if (have_posts()) :
-            ?>
-            <div class="pure-g">
-                <?php while (have_posts()) : the_post();
+<?php
+if (have_posts()) :
+    ?>
+    <div class="pure-g">
+        <div class="content">
+            <?php while (have_posts()) : the_post();
                 ?>
-                    <div class="pure-u-1 content-area">
-                        <a href="<?php echo get_permalink($post->ID) ?>"><h2><?php the_title(); ?></h2></a>
-                        <?php the_content("继续阅读..."); ?>
-                        <div class="time"><i class="fa fa-calendar"></i>发布日期:<?php echo date('Y年m月d日',strtotime($post->post_date)); ?></div>
+                <div class="pure-u-1 content-area">
+                    <a href="<?php echo get_permalink($post->ID) ?>"><h2><?php the_title(); ?></h2></a>
+                    <?php the_content("继续阅读..."); ?>
+                    <div class="time"><i
+                            class="fa fa-calendar"></i>发布日期:<?php echo date('Y年m月d日', strtotime($post->post_date)); ?>
                     </div>
+                </div>
                 <?php
-                endwhile; ?>
-            </div>
-            <?php
-        endif;
-        ?>
+            endwhile; ?>
+        </div>
     </div>
+    <?php
+endif;
+?>
 
 <?php get_footer(); ?>

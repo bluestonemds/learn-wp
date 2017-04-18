@@ -8,6 +8,7 @@ html,
 }
 
 .content {
+    margin:0 auto;
     padding-left: 1em;
     padding-right: 1em;
     box-sizing: border-box;
@@ -161,6 +162,7 @@ a:hover {
 
 @media screen and (min-width: 48em) {
     .content {
+        margin:0 auto;
         padding-left: 5em;
         padding-right: 5em;
         box-sizing: border-box;

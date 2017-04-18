@@ -32,3 +32,11 @@ register_sidebar($args = array(
     'after_title' => "</h2>\n",
 ));
 
+function my_home_category($query)
+{
+    if ($query->is_home() && $query->is_main_query()) {
+        $query->set('cat', '16');
+    }
+}
+
+add_action('pre_get_posts', 'my_home_category');

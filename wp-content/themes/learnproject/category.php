@@ -20,13 +20,22 @@ get_header(); ?>
         if (have_posts()) :
             ?>
             <div class="pure-g">
-                <?php while (have_posts()) : the_post();
+                <?php while (have_posts()) :
+                    the_post();
                     ?>
-                    <div class="pure-u-sm-1 pure-u-md-1-3 product-thumbnail center">
+                    <div class="pure-u-1 pure-u-md-1-3 product-thumbnail center">
                         <a href="<?php echo get_permalink($post->ID) ?>"><?php the_post_thumbnail(); ?></a>
                         <div><a href="<?php echo get_permalink($post->ID) ?>"><?php the_title(); ?></a></div>
                     </div>
                 <?php endwhile; ?>
+                <div class="pure-u-1 pagination">
+                    <?php the_posts_pagination(array(
+                        "prev_text" => "前一页",
+                        "next_text" => "后一页",
+                        "screen_reader_text" => " "
+                    ));
+                    ?>
+                </div>
             </div>
             <?php
         endif;

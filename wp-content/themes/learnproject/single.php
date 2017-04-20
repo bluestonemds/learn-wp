@@ -15,27 +15,29 @@
  */
 get_header(); ?>
 <article class="container">
-    <?php
-    if (have_posts()) :
-    ?>
-    <div class="pure-g">
-        <div class="content">
-            <?php while (have_posts()) : the_post(); ?>
-                <div class="pure-u-1">
-                    <a href="<?php echo get_permalink($post->ID) ?>"><?php the_title('<h2 class="entry-title">', '</h2>'); ?></a>
-                    <div class="publish-date">发布日期:<?php echo date('Y年m月d日', strtotime($post->post_date)); ?></div>
-                    <div class="content">
-                        <?php the_content();
-                        wp_link_pages();
-                        ?>
-                    </div>
-                </div>
-            <?php endwhile; ?>
-        </div>
-
+    <div class="wrapper">
         <?php
-        endif;
+        if (have_posts()) :
         ?>
+        <div class="pure-g">
+            <div class="content">
+                <?php while (have_posts()) : the_post(); ?>
+                    <div class="pure-u-1">
+                        <a href="<?php echo get_permalink($post->ID) ?>"><?php the_title('<h2 class="entry-title">', '</h2>'); ?></a>
+                        <div class="publish-date">发布日期:<?php echo date('Y年m月d日', strtotime($post->post_date)); ?></div>
+                        <div class="content">
+                            <?php the_content();
+                            wp_link_pages();
+                            ?>
+                        </div>
+                    </div>
+                <?php endwhile; ?>
+            </div>
+
+            <?php
+            endif;
+            ?>
+        </div>
     </div>
 </article>
 

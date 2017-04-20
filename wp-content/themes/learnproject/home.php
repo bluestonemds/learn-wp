@@ -14,29 +14,31 @@
  * @since Twenty Sixteen 1.0
  */
 get_header(); ?>
-<div class="pure-g">
-<!--    <div class="container">-->
-        <div class="content pure-u-sm-1-1 pure-u-md-4-5">
-            <?php
-            if (have_posts()) :
-                while (have_posts()) : the_post();
-                    ?>
-                    <div class="content-area">
-                        <a href="<?php echo get_permalink($post->ID) ?>"><h2><?php the_title(); ?></h2></a>
-                        <div class="time"><i
-                                    class="fa fa-calendar"></i>发布日期:<?php echo date('Y年m月d日', strtotime($post->post_date)); ?>
+<div class="container">
+    <div class="wrapper">
+        <div class="pure-g">
+            <div class="content pure-u-1 pure-u-md-4-5">
+                <?php
+                if (have_posts()) :
+                    while (have_posts()) : the_post();
+                        ?>
+                        <div class="content-area">
+                            <a href="<?php echo get_permalink($post->ID) ?>"><h2><?php the_title(); ?></h2></a>
+                            <div class="time"><i
+                                        class="fa fa-calendar"></i>发布日期:<?php echo date('Y年m月d日', strtotime($post->post_date)); ?>
+                            </div>
+                            <?php the_content("继续阅读..."); ?>
                         </div>
-                        <?php the_content("继续阅读..."); ?>
-                    </div>
-                    <?php
-                endwhile;
-            endif;
-            ?>
-        </div>
-        <div class="sidebar pure-u-sm-1-1 pure-u-md-1-5">
-            <?php dynamic_sidebar(); ?>
+                        <?php
+                    endwhile;
+                endif;
+                ?>
+            </div>
+            <div class="sidebar pure-u-1 pure-u-md-1-5">
+                <?php dynamic_sidebar(); ?>
+            </div>
         </div>
     </div>
-<!--</div>-->
+</div>
 
 <?php get_footer(); ?>

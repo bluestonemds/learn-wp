@@ -2,21 +2,43 @@
 Theme Name: learningWordPress
 */
 
+
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
 html,
 .pure-g [class*=pure-u] {
     font-family: "Helvetica Neue", "Luxi Sans", "DejaVu Sans", Tahoma, "Hiragino Sans GB", "Microsoft Yahei", sans-serif
 }
 
+body{
+    background-color: #e2e2e2;
+}
+
+
 .container {
     width:100%;
-    margin:0 auto;
+    margin-top: 0;
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: 2em;
 }
 
 .content {
-    margin: 0 auto;
+    margin-top: 0;
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: 2em;
     padding-left: 1em;
     padding-right: 1em;
     box-sizing: border-box;
+}
+
+.content h2{
+    color: #0077bb;
 }
 
 .sidebar {
@@ -40,35 +62,12 @@ a:hover {
     color: #0077bb;
 }
 
+.wrapper {
+    background-color: #fcfcfc;
+}
 .center {
     text-align: center;
     margin:0 auto;
-}
-
-.slider {
-    background-color: #f7f7f7;
-    padding: 2em;
-}
-
-.column-three {
-    padding: 4em;
-    background-color: #ffffff;
-    font-size: 0.875em;
-    color: #444;
-}
-
-.column-three p {
-    line-height: 1.66;
-}
-
-.column-three li {
-    margin-bottom: 0.5em;
-    margin-left: 4em;
-}
-
-.column-three img {
-    display: block;
-    margin: 0 auto;
 }
 
 .lanshi-nav {
@@ -87,12 +86,11 @@ a:hover {
 }
 
 .product-list {
-    background-color: #f7f7f7;
+    background-color: #fcfcfc;
 }
 
 .product-thumbnail {
     padding: 2em;
-    box-sizing: border-box;
 }
 
 .product-thumbnail img {
@@ -121,7 +119,7 @@ a:hover {
     text-align: center;
     padding: 2em 0;
     margin-bottom: 2em;
-    background-color: #eeeeee;
+    background-color: #fcfcfc;
     color: #444;
     font-size: 1em;
 }
@@ -129,7 +127,6 @@ a:hover {
 .sidebar {
     list-style: none;
     padding: 0.75em;
-    box-sizing: border-box;
 }
 
 .sidebar img {
@@ -189,14 +186,18 @@ a:hover {
 @media screen and (min-width: 48em) {
     .container {
         width:1140px;
-        margin:0 auto;
+        margin-top: 0;
+        margin-right: auto;
+        margin-left: auto;
+        margin-bottom: 2em;
     }
 
     .content {
-        margin: 0 auto;
-        padding-left: 5em;
-        padding-right: 5em;
-        box-sizing: border-box;
+        margin-top: 0;
+        margin-right: auto;
+        margin-left: auto;
+        margin-bottom: 2em;
+        padding: 1em 3em;
     }
 
     .sidebar {

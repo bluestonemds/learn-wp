@@ -1,0 +1,982 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: BUG-EMAIL-ADDR <EMAIL@ADDRESS>\n"
+"POT-Creation-Date: yyyy-mm-dd hh:mm+0000\n"
+"PO-Revision-Date: 2015-12-10 14:39+0500\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"X-Generator: Eazy Po 0.9.5.3\n"
+
+msgid "Add-ons"
+msgstr ""
+
+msgid "Comment Forms"
+msgstr ""
+
+msgid "Dismiss this notice."
+msgstr ""
+
+msgid "Published"
+msgstr ""
+
+msgid "Unpublished"
+msgstr ""
+
+msgid "Trashed"
+msgstr ""
+
+msgid "Only Show Comments"
+msgstr ""
+
+msgid "All"
+msgstr ""
+
+msgid "Show Only Comments"
+msgstr ""
+
+msgid "Trash"
+msgstr ""
+
+msgid "Restore"
+msgstr ""
+
+msgid "Delete Permanently"
+msgstr ""
+
+msgid "Edit"
+msgstr ""
+
+msgid "Duplicate"
+msgstr ""
+
+msgid "No comments found."
+msgstr ""
+
+msgid "Select bulk action"
+msgstr ""
+
+msgid "Bulk Actions"
+msgstr ""
+
+msgid "Apply"
+msgstr ""
+
+msgid "Move to Trash"
+msgstr ""
+
+msgid "Add New"
+msgstr ""
+
+msgid "Select All"
+msgstr ""
+
+msgid "Title"
+msgstr ""
+
+msgid "Status"
+msgstr ""
+
+msgid "Guest Comment"
+msgstr ""
+
+msgid "You don't have any comment forms. "
+msgstr ""
+
+msgid "Click Here"
+msgstr ""
+
+msgid "to create one."
+msgstr ""
+
+msgid "View Page"
+msgstr ""
+
+msgid "WP Advanced Comment"
+msgstr ""
+
+msgid "Sorry we couldn't find the comment you were looking for."
+msgstr ""
+
+msgid "1 comment moved to the Trash."
+msgstr ""
+
+msgid "Spam"
+msgstr ""
+
+msgid "Not Spam"
+msgstr ""
+
+msgid "Approve"
+msgstr ""
+
+msgid "Unapprove"
+msgstr ""
+
+msgid "Reply to this comment"
+msgstr ""
+
+msgid "Reply"
+msgstr ""
+
+msgid "Edit comment"
+msgstr ""
+
+msgid "| In reply to "
+msgstr ""
+
+msgid "User"
+msgstr ""
+
+msgid "Post"
+msgstr ""
+
+msgid "Order By"
+msgstr ""
+
+msgid "Order"
+msgstr ""
+
+msgid "Submitted on"
+msgstr ""
+
+msgid "Reset Flagged Reports"
+msgstr ""
+
+msgid "Reply Comment"
+msgstr ""
+
+msgid "Write Your Comment Here."
+msgstr ""
+
+msgid "Profile Pic :"
+msgstr ""
+
+msgid "Name :"
+msgstr ""
+
+msgid "E-mail"
+msgstr ""
+
+msgid "Send E-mail"
+msgstr ""
+
+msgid "Comment :"
+msgstr ""
+
+msgid "IP Address :"
+msgstr ""
+
+msgid "Submitted On :"
+msgstr ""
+
+msgid "In Reply To :"
+msgstr ""
+
+msgid "You have successfully replied to this comment."
+msgstr ""
+
+msgid "Reply Form"
+msgstr ""
+
+msgid "Comment Details"
+msgstr ""
+
+msgid "Draft"
+msgstr ""
+
+msgid "Save"
+msgstr ""
+
+msgid "Edit Form"
+msgstr ""
+
+msgid "Edit Comment Form"
+msgstr ""
+
+msgid "Add New Comment Form"
+msgstr ""
+
+msgid "Title :"
+msgstr ""
+
+msgid "Name"
+msgstr ""
+
+msgid "Toggle"
+msgstr ""
+
+msgid "Required :"
+msgstr ""
+
+msgid "Yes"
+msgstr ""
+
+msgid "No"
+msgstr ""
+
+msgid "Field Label"
+msgstr ""
+
+msgid "Enter a title of this field."
+msgstr ""
+
+msgid "Help Text"
+msgstr ""
+
+msgid "Give the user some information about this field."
+msgstr ""
+
+msgid "CSS Class Name"
+msgstr ""
+
+msgid "Add a CSS class name for this field."
+msgstr ""
+
+msgid "PlaceHolder Text"
+msgstr ""
+
+msgid "Text for HTML5 placeholder attribute."
+msgstr ""
+
+msgid "Error Message"
+msgstr ""
+
+msgid "Add custom error message. Leave it blank to show default message."
+msgstr ""
+
+msgid "Size"
+msgstr ""
+
+msgid "Size of this field."
+msgstr ""
+
+msgid "Email"
+msgstr ""
+
+msgid "Required"
+msgstr ""
+
+msgid "Comment Field"
+msgstr ""
+
+msgid "Default Value"
+msgstr ""
+
+msgid "Default value for this field."
+msgstr ""
+
+msgid "Rows"
+msgstr ""
+
+msgid "Number of rows in textarea."
+msgstr ""
+
+msgid "Columns"
+msgstr ""
+
+msgid "Number of columns in textarea."
+msgstr ""
+
+msgid "Editor"
+msgstr ""
+
+msgid "Choose an Editor."
+msgstr ""
+
+msgid "Textarea"
+msgstr ""
+
+msgid "WP Editor ( Only For Premium Members )"
+msgstr ""
+
+msgid "Remove"
+msgstr ""
+
+msgid "Enter a title of this section."
+msgstr ""
+
+msgid "Give the user some information about this section."
+msgstr ""
+
+msgid "HTML Codes"
+msgstr ""
+
+msgid "Paste Your Html Codes Here"
+msgstr ""
+
+msgid "Meta Key"
+msgstr ""
+
+msgid "Name of the meta key this field will save to."
+msgstr ""
+
+msgid "Enable For"
+msgstr ""
+
+msgid "Preview"
+msgstr ""
+
+msgid "Show the user's selected image preview before uploading."
+msgstr ""
+
+msgid "Hide/Show"
+msgstr ""
+
+msgid "Tick if you want to show this field to admin only."
+msgstr ""
+
+msgid "Show to admin only"
+msgstr ""
+
+msgid "Options"
+msgstr ""
+
+msgid "Label"
+msgstr ""
+
+msgid "Value"
+msgstr ""
+
+msgid "Select Text"
+msgstr ""
+
+msgid "First element of the select dropdown. Leave this empty if you don't want to show this field."
+msgstr ""
+
+msgid "WooCommerce Advanced Product Reviews Available Soon ..."
+msgstr ""
+
+msgid "It seems like Akismet Plugin is deactivated or not installed. Please enable it to protect from spam. This plugin is used by WP Advanced Comment."
+msgstr ""
+
+msgid "Reported Comments"
+msgstr ""
+
+msgid "Option Selected :"
+msgstr ""
+
+msgid "User Message : "
+msgstr ""
+
+msgid "No flagged comments found for this post."
+msgstr ""
+
+msgid "Please select post / page from above select box."
+msgstr ""
+
+msgid "Choose Post / Page"
+msgstr ""
+
+msgid "Author"
+msgstr ""
+
+msgid "Comment"
+msgstr ""
+
+msgid "Reported Message"
+msgstr ""
+
+msgid "In Response To"
+msgstr ""
+
+msgid "Comment flagged as inappropriate"
+msgstr ""
+
+msgid "Comment Approved"
+msgstr ""
+
+msgid "Pending"
+msgstr ""
+
+msgid "Approved"
+msgstr ""
+
+msgid "Mark as Spam"
+msgstr ""
+
+msgid "All Users"
+msgstr ""
+
+msgid "All Posts"
+msgstr ""
+
+msgid "Comment Author"
+msgstr ""
+
+msgid "Comment Author Email"
+msgstr ""
+
+msgid "Comment Author IP"
+msgstr ""
+
+msgid "Comment Author Url"
+msgstr ""
+
+msgid "Comment Content"
+msgstr ""
+
+msgid "Comment Date"
+msgstr ""
+
+msgid "Comment Date Gmt"
+msgstr ""
+
+msgid "Comment ID"
+msgstr ""
+
+msgid "Comment Karma"
+msgstr ""
+
+msgid "Comment Parent"
+msgstr ""
+
+msgid "Comment Post ID"
+msgstr ""
+
+msgid "Comment Type"
+msgstr ""
+
+msgid "User Id"
+msgstr ""
+
+msgid "Ascending"
+msgstr ""
+
+msgid "Decending"
+msgstr ""
+
+msgid "Filter"
+msgstr ""
+
+msgid "Reported"
+msgstr ""
+
+msgid "Comment form updated."
+msgstr ""
+
+msgid "Comment Elements"
+msgstr ""
+
+msgid "Free Plan"
+msgstr ""
+
+msgid "Text"
+msgstr ""
+
+msgid "Radio Button"
+msgstr ""
+
+msgid "Checkbox"
+msgstr ""
+
+msgid "Dropdown"
+msgstr ""
+
+msgid "Url"
+msgstr ""
+
+msgid "Multi Select"
+msgstr ""
+
+msgid "Others"
+msgstr ""
+
+msgid "Section Break"
+msgstr ""
+
+msgid "HTML"
+msgstr ""
+
+msgid "User Image"
+msgstr ""
+
+msgid "Premium Plan"
+msgstr ""
+
+msgid "Image Upload"
+msgstr ""
+
+msgid "File Upload"
+msgstr ""
+
+msgid "Star Rating"
+msgstr ""
+
+msgid "Datepicker"
+msgstr ""
+
+msgid "Google Map"
+msgstr ""
+
+msgid "Really Simple Captcha"
+msgstr ""
+
+msgid "reCaptcha"
+msgstr ""
+
+msgid "How do you want to show the comment form ?"
+msgstr ""
+
+msgid "Replace default wordpress comment form."
+msgstr ""
+
+msgid "( It will override the default comment form for all pages & posts. )"
+msgstr ""
+
+msgid "Choose Pages / Posts"
+msgstr ""
+
+msgid "( The comment form will be displayed on certain pages / posts. )"
+msgstr ""
+
+msgid "None of above"
+msgstr ""
+
+msgid "Form Editor"
+msgstr ""
+
+msgid "Form Settings"
+msgstr ""
+
+msgid "Pagination"
+msgstr ""
+
+msgid "Notification"
+msgstr ""
+
+msgid "Like/Dislike Button"
+msgstr ""
+
+msgid "Custom Layout"
+msgstr ""
+
+msgid "Toggle All"
+msgstr ""
+
+msgid "Click on a form element to add to the editor"
+msgstr ""
+
+msgid "Roles"
+msgstr ""
+
+msgid "Disable"
+msgstr ""
+
+msgid "If enabled the user roles will be shown. eg. administrator, subscriber, author etc. To change the user roles background color. Go to WP Advanced Comment > Settings > Roles Tab and choose your colors."
+msgstr ""
+
+msgid "Moderation"
+msgstr ""
+
+msgid "Comments must be automatically approved."
+msgstr ""
+
+msgid "Comment Status"
+msgstr ""
+
+msgid "Unpublished form but show the comments"
+msgstr ""
+
+msgid "Comment Listings"
+msgstr ""
+
+msgid "Enable"
+msgstr ""
+
+msgid "Enable this if you want to show the comments that has been submitted form this form only."
+msgstr ""
+
+msgid "Disabling this will show all the comments on a post from different comment forms."
+msgstr ""
+
+msgid "Comment Listing Order"
+msgstr ""
+
+msgid "Latest Comments Last"
+msgstr ""
+
+msgid "Latest Comments First"
+msgstr ""
+
+msgid "Disable Guest Comments"
+msgstr ""
+
+msgid "Unregistered users will be able to submit comments"
+msgstr ""
+
+msgid "Show Fields to Logged in Users"
+msgstr ""
+
+msgid "Show User Name Field"
+msgstr ""
+
+msgid "Username field will be displayed for the logged in users but cannot edit the field"
+msgstr ""
+
+msgid "Show User Email Field"
+msgstr ""
+
+msgid "User email field will be displayed for the logged in users but cannot edit the field"
+msgstr ""
+
+msgid "Publish Date"
+msgstr ""
+
+msgid "Time Ago"
+msgstr ""
+
+msgid "Comment Position"
+msgstr ""
+
+msgid "Show Comment First & Comment Metas at Last"
+msgstr ""
+
+msgid "Show Comment Metas First & Comment at Last"
+msgstr ""
+
+msgid "Submit Button Label"
+msgstr ""
+
+msgid "Layout"
+msgstr ""
+
+msgid "One column"
+msgstr ""
+
+msgid "Two column"
+msgstr ""
+
+msgid "No of comments"
+msgstr ""
+
+msgid "Select no of comments to show per page."
+msgstr ""
+
+msgid "Top"
+msgstr ""
+
+msgid "Bottom"
+msgstr ""
+
+msgid "Top & Bottom"
+msgstr ""
+
+msgid "Text for first page"
+msgstr ""
+
+msgid "Text for Last page"
+msgstr ""
+
+msgid "Text for Previous page"
+msgstr ""
+
+msgid "Text for Next page"
+msgstr ""
+
+msgid "New Comment Notification for Administrator"
+msgstr ""
+
+msgid "Enable Comment Notification"
+msgstr ""
+
+msgid "To"
+msgstr ""
+
+msgid "Note : For multiple emails use comma separated email."
+msgstr ""
+
+msgid "Subject"
+msgstr ""
+
+msgid "Message"
+msgstr ""
+
+msgid "Comment Approved Notifications to the users"
+msgstr ""
+
+msgid "Disable Comment Notification"
+msgstr ""
+
+msgid "Note : If enabled, a checkbox will be visible to the users. If the user tick the checkbox then only the mail will be sent."
+msgstr ""
+
+msgid "From Name"
+msgstr ""
+
+msgid "From Email"
+msgstr ""
+
+msgid "You may use in message:"
+msgstr ""
+
+msgid "Enable Like/Dislike Button"
+msgstr ""
+
+msgid "Button"
+msgstr ""
+
+msgid "Both like and dislike button"
+msgstr ""
+
+msgid "Like button only"
+msgstr ""
+
+msgid "Dislike button only"
+msgstr ""
+
+msgid "Button Position"
+msgstr ""
+
+msgid "Above Comment"
+msgstr ""
+
+msgid "Below Comment"
+msgstr ""
+
+msgid "Something is Wrong"
+msgstr ""
+
+msgid "Meta keys should not be empty. Please correct them and try agian. <br>Thank you."
+msgstr ""
+
+msgid "Field Labels should not be empty. Please correct them and try agian. <br>Thank you."
+msgstr ""
+
+msgid "Meta keys with same value are not allowed. Please correct them and try agian. <br><br>Multiple meta keys <span class=\"multiple_keys\">address</span> found.<br><br>Thank you."
+msgstr ""
+
+msgid "Like"
+msgstr ""
+
+msgid "Dislike"
+msgstr ""
+
+msgid "Edit Comment"
+msgstr ""
+
+msgid "You have successfully updated this comment."
+msgstr ""
+
+msgid "Update"
+msgstr ""
+
+msgid "Settings"
+msgstr ""
+
+msgid "You are connected to Akismet. Great !!!"
+msgstr ""
+
+msgid "You are not connected to Akismet. If you don't want spam please enable the Akismet plugin which comes with wordpress by default and put the API Key"
+msgstr ""
+
+msgid "Settings Page"
+msgstr ""
+
+msgid "jQuery"
+msgstr ""
+
+msgid "Akismet Integration"
+msgstr ""
+
+msgid "Disable jQuery"
+msgstr ""
+
+msgid "Disable Plugin's Jquery"
+msgstr ""
+
+msgid "Disable this if it conflicts with other jquery"
+msgstr ""
+
+msgid "Disable Validation Plugin"
+msgstr ""
+
+msgid "Disable Jquery Validation Plugin"
+msgstr ""
+
+msgid "Disable this if the site already has jquery validation plugin."
+msgstr ""
+
+msgid "Disable comment flagging"
+msgstr ""
+
+msgid "Disable your visitors from flagging comments as inappropriate"
+msgstr ""
+
+msgid "Report Comment Options"
+msgstr ""
+
+msgid "Enter your options separated with commas for the report comment."
+msgstr ""
+
+msgid "Textarea Comment"
+msgstr ""
+
+msgid "Disable textarea on report comment"
+msgstr ""
+
+msgid "Mandatory User Message"
+msgstr ""
+
+msgid "User must write a message why he/she flagged it."
+msgstr ""
+
+msgid "Flagging Threshold"
+msgstr ""
+
+msgid "Amount of user reports needed to send a comment to moderation ? Leave blank if you don't want to use."
+msgstr ""
+
+msgid "Email Reports"
+msgstr ""
+
+msgid "WPAD Recent Comments"
+msgstr ""
+
+msgid "Your site’s most recent comments."
+msgstr ""
+
+msgid "What People Says"
+msgstr ""
+
+msgid "Sorry, there are no comments to show."
+msgstr ""
+
+msgid "Title:"
+msgstr ""
+
+msgid "Number of comments:"
+msgstr ""
+
+msgid "Length of comments:"
+msgstr ""
+
+msgid "Choose Template:"
+msgstr ""
+
+msgid "Style 1"
+msgstr ""
+
+msgid "Style 2"
+msgstr ""
+
+msgid "Style 3"
+msgstr ""
+
+msgid " Comment on "
+msgstr ""
+
+msgid " Comments on "
+msgstr ""
+
+msgid "just now"
+msgstr ""
+
+msgid "one minute ago"
+msgstr ""
+
+msgid "minutes ago"
+msgstr ""
+
+msgid "an hour ago"
+msgstr ""
+
+msgid "hrs ago"
+msgstr ""
+
+msgid "yesterday"
+msgstr ""
+
+msgid "days ago"
+msgstr ""
+
+msgid "a week ago"
+msgstr ""
+
+msgid "weeks ago"
+msgstr ""
+
+msgid "a month ago"
+msgstr ""
+
+msgid "months ago"
+msgstr ""
+
+msgid "one year ago"
+msgstr ""
+
+msgid "years ago"
+msgstr ""
+
+msgid "Page "
+msgstr ""
+
+msgid " of "
+msgstr ""
+
+msgid "Guest"
+msgstr ""
+
+msgid "Your report has been successfully sent. We will look into it."
+msgstr ""
+
+msgid "Spam or scam,Violence or harmful behaviour,Sexually explicit content,I don't like this comment,This comment is harassing or bullying me"
+msgstr ""
+
+msgid "This field is required"
+msgstr ""
+
+msgid "Only JPEG / PNG / GIF / BMP files allowed"
+msgstr ""
+
+msgid "Please select at least "
+msgstr ""
+
+msgid " items."
+msgstr ""
+
+msgid "Please select no more than "
+msgstr ""
+
+msgid "There are no reviews yet. Be the first one to review."
+msgstr ""
+
+msgid "Report"
+msgstr ""
+
+msgid "said :"
+msgstr ""
+
+msgid "Your comment is awaiting moderation"
+msgstr ""
+
+msgid "Your comment has been successfully published. Please refresh the page to see your comment."
+msgstr ""
+
+msgid "Leave a Reply"
+msgstr ""
+
+msgid "Your email address will not be published. Required fields are marked"
+msgstr ""
+
+msgid "Email me when my comment gets approved."
+msgstr ""
+
+msgid "Your Message"
+msgstr ""
+
+msgid "Report This Comment"
+msgstr ""
+
+msgid "Cancel"
+msgstr ""

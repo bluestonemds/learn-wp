@@ -17,25 +17,29 @@ get_header(); ?>
 <div class="container">
     <div class="wrapper">
         <div class="content">
-            <?php
-            // Start the loop.
-            while (have_posts()) : the_post(); ?>
+			<?php
+			// Start the loop.
+			while ( have_posts() ) : the_post(); ?>
 
                 <article id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
 
                     <header class="entry-header">
-                        <?php the_title('<h1 class="entry-title">', '</h1>'); ?>
+						<?php the_title( '<h1 class="entry-title">', '</h1>' ); ?>
                     </header><!-- .entry-header -->
 
                     <div class="entry-content">
-                        <?php the_content(); ?>
-                        <?php
-                        wp_link_pages();
-                        ?>
+						<?php the_content(); ?>
+						<?php
+						wp_link_pages();
+						?>
                     </div><!-- .entry-content -->
 
                 </article><!-- #post-## -->
-            <?php endwhile; ?>
+			<?php endwhile; ?>
+			<?php
+				comments_template();
+			?>
+
         </div>
     </div>
 </div>

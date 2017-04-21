@@ -36,6 +36,7 @@ get_header(); ?>
 
             <?php
             endif;
+            comments_template();
             ?>
         </div>
     </div>

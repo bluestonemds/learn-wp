@@ -1,0 +1,180 @@
+.wpad-recent-comments-widget {
+    margin: 10px 0 0 0;
+    padding: 0;
+}
+.wpad-recent-comments-widget li {
+    display: block;
+    padding: 5px 0 !important;
+    text-transform: capitalize;
+}
+.wpad-recent-comments-widget .wpad-widget-post-thumbnail {
+    margin-right: 10px;
+}
+.wpad-widget-post-thumbnail {
+    float: left;
+    margin-bottom: 0;
+    margin-right: 15px;
+    overflow: hidden;
+    position: relative;
+}
+.wpad-recent-comments-widget .wpad-widget-post-thumbnail img.avatar-20 {
+    height: 20px;
+    width: 20px;
+}
+.wpad-recent-comments-widget .wpad-widget-post-thumbnail img {
+    display: block;
+    height: 20px;
+    width: 20px;
+}
+.wpad-recent-comments-widget li p.entry-title , .wpad-recent-comments-widget li p.entry-title a {
+    font-size: 12px;
+    margin-bottom: 0;
+    line-height: 22px;
+    margin-top: 0;
+}
+.wpad-recent-comments-widget li .widget-content::before {
+    border-color: transparent transparent #e4e2dc;
+    border-style: solid;
+    border-width: 0 10px 10px;
+    content: "";
+    height: 0;
+    left: 30px;
+    position: absolute;
+    top: -10px;
+    width: 0;
+}
+.wpad-recent-comments-widget li .comment-text, .wpad-recent-comments-widget li .comment-text a {
+    font-size: 14px;
+    font-style: italic;
+    text-transform: capitalize !important;
+}
+.wpad-recent-comments-widget li p.entry-title a {
+    color: #dd3333;
+}
+.wpad-recent-comments-widget li .comment-time {
+    bottom: -20px;
+    color: #9a9995;
+    display: block;
+    font-size: 11px;
+    left: 0;
+    line-height: 11px;
+    position: absolute;
+    text-transform: uppercase;
+}
+.wpad-recent-comments-widget li .widget-content {
+    background: #e4e2dc none repeat scroll 0 0;
+    margin-bottom: 40px;
+    margin-top: 20px;
+    padding: 15px;
+    position: relative;
+}
+h3.entry-title > span {
+    color: #afafaf;
+    display: block;
+    font-size: 14px;
+    font-weight: normal;
+    line-height: 14px;
+}
+
+.widget_ti_latest_comments li {
+    border: 0 none;
+    line-height: 26px !important;
+    margin: 20px auto 25px;
+    width: 90%;
+    list-style-type: none;
+}
+.widget_ti_latest_comments header {
+    margin-bottom: 10px;
+    min-height: 40px;
+}
+.widget_ti_latest_comments figure {
+    float: right;
+    margin: 0 0 0 15px;
+}
+.widget_ti_latest_comments figure a img {
+    width: 40px !important;
+    height: auto;
+}
+.widget_ti_latest_comments .commentnum {
+    float: left;
+    font: italic 36px/1 serif;
+    margin: 0 15px 0 0;
+}
+.widget_ti_latest_comments .comment-post {
+    display: block;
+    overflow: hidden;
+}
+.widget_ti_latest_comments .comment-text {
+    border-color: #aaa;
+}
+.widget_ti_latest_comments .comment-text {
+    border-style: solid;
+    border-width: 1px;
+    font-size: 90%;
+    font-style: italic;
+    padding: 20px;
+    position: relative;
+    white-space: normal;
+}
+.widget_ti_latest_comments .comment-text::after, .widget_ti_latest_comments .comment-text::before {
+    border: medium solid transparent;
+    bottom: 100%;
+    content: "";
+    height: 0;
+    pointer-events: none;
+    position: absolute;
+    width: 0;
+}
+.widget_ti_latest_comments .comment-text::before {
+    border-bottom-color: #aaa;
+}
+.widget_ti_latest_comments .comment-text::before {
+    border-width: 7px;
+    left: 95%;
+    margin-left: -7px;
+}
+.widget_ti_latest_comments .comment-text::after {
+    border-bottom-color: #fff;
+}
+.widget_ti_latest_comments .comment-text::after {
+    border-width: 6px;
+    left: 95%;
+    margin-left: -6px;
+}
+.cb-recent-comments-avatar {
+    padding: 10px;
+    margin: 0;
+}
+.cb-recent-comments-avatar .cb-comment-with-avatar {
+    margin-bottom: 10px;
+    min-height: 60px;
+    border-bottom: 1px solid #eee;
+    padding-bottom: 10px;
+    display: table !important;
+    width: 100%;
+}
+.cb-recent-comments-avatar .cb-comment-with-avatar:last-child{
+    padding-bottom: 0;
+    border-bottom: none;
+}
+.cb-recent-comments-avatar .cb-comment-with-avatar .cb-avatar {
+    float: left;
+}
+.cb-recent-comments-avatar .cb-comment-with-avatar .cb-avatar img{
+    width: 60px !important;
+    height: auto;
+    border-radius: 0%;
+}
+.cb-recent-comments-avatar .cb-comment-with-avatar .cb-comment a {
+    line-height: 30px !important;
+    text-transform: capitalize;
+    display: block;
+}
+.cb-recent-comments-avatar .cb-comment-with-avatar .cb-comment {
+    color: #4d4d4d;
+    padding-left: 70px;
+}
+.widget_ti_latest_comments {
+    margin: 0;
+    padding: 0;
+}

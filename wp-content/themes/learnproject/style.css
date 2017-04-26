@@ -183,6 +183,14 @@ a:hover {
 
 .pagination .a:hover:not(.active) {background-color: #ddd;}
 
+
+
+/**
+ * Comments
+ */
+
+
+
 @media screen and (min-width: 48em) {
     .container {
         width:1140px;

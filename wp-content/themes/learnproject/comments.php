@@ -1,24 +1,62 @@
 <?php
 /**
- * Created by PhpStorm.
- * User: xiaofeng
- * Date: 2017/4/21
- * Time: 上午10:41
+ * The template for displaying comments
+ *
+ * The area of the page that contains both current comments
+ * and the comment form.
+ *
+ * @package WordPress
+ * @subpackage Twenty_Sixteen
+ * @since Twenty Sixteen 1.0
  */
-//Get only the approved comments
-$args = array(
-	'status' => 'approve'
-);
 
-// The comment Query
-$comments_query = new WP_Comment_Query;
-$comments = $comments_query->query( $args );
-
-// Comment Loop
-if ( $comments ) {
-	foreach ( $comments as $comment ) {
-		echo '<p>' . $comment->comment_content . '</p>';
-	}
-} else {
-	echo 'No comments found.';
+/*
+ * If the current post is protected by a password and
+ * the visitor has not yet entered the password we will
+ * return early without loading the comments.
+ */
+if ( post_password_required() ) {
+	return;
 }
+?>
+
+<div id="comments" class="comments-area">
+
+	<?php if ( have_comments() ) : ?>
+		<h2 class="comments-title">
+			<?php
+				printf("留言（".get_comments_number()."条）");
+			?>
+		</h2>
+
+		<?php the_comments_navigation(); ?>
+
+		<ol class="comment-list">
+			<?php
+				wp_list_comments( array(
+					'style'       => 'ol',
+					'short_ping'  => true,
+					'avatar_size' => 42,
+				) );
+			?>
+		</ol><!-- .comment-list -->
+
+		<?php the_comments_navigation(); ?>
+
+	<?php endif; // Check for have_comments(). ?>
+
+	<?php
+		// If comments are closed and there are comments, let's leave a little note, shall we?
+		if ( ! comments_open() && get_comments_number() && post_type_supports( get_post_type(), 'comments' ) ) :
+	?>
+		<p class="no-comments"><?php _e( '本文留言功能已关闭。', 'twentysixteen' ); ?></p>
+	<?php endif; ?>
+
+	<?php
+		comment_form( array(
+			'title_reply_before' => '<h2 id="reply-title" class="comment-reply-title">',
+			'title_reply_after'  => '</h2>',
+		) );
+	?>
+
+</div><!-- .comments-area -->

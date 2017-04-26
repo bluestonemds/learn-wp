@@ -1292,13 +1292,12 @@ function comments_template( $file = '/comments.php', $separate_comments = false 
 	global $wp_query, $withcomments, $post, $wpdb, $id, $comment, $user_login, $user_ID, $user_identity, $overridden_cpage;
 
 	if ( !(is_single() || is_page() || $withcomments) || empty($post) )
-		return;
+		return ;
 
 	if ( empty($file) )
 		$file = '/comments.php';
 
 	$req = get_option('require_name_email');
-
 	/*
 	 * Comment author information fetched from the comment cookies.
 	 */
@@ -1465,6 +1464,7 @@ function comments_template( $file = '/comments.php', $separate_comments = false 
 	 * @param string $theme_template The path to the theme template file.
 	 */
 	$include = apply_filters( 'comments_template', $theme_template );
+
 	if ( file_exists( $include ) )
 		require( $include );
 	elseif ( file_exists( TEMPLATEPATH . $file ) )

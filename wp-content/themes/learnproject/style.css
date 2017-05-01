@@ -41,6 +41,9 @@ body{
     color: #0077bb;
 }
 
+.content img{
+}
+
 .sidebar {
     display: none;
 }
@@ -63,7 +66,7 @@ a:hover {
 }
 
 .wrapper {
-    background-color: #fcfcfc;
+    background-color: #ffffff;
 }
 .center {
     text-align: center;
@@ -99,11 +102,16 @@ a:hover {
     background-color: #fff;
 }
 
-.comment {
+#comments {
     padding: 2em;
-    background-color: #ffffff;
+    background-color: #fcfcfc;
+    border-top: 1px solid #ccc;
 }
 
+
+.comment-form-comment label{
+    display:block;
+}
 .comment-left-line {
     border-left: 4px solid #e3e3e3;
     padding-left: 1.5em;

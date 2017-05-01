@@ -54,8 +54,17 @@ if ( post_password_required() ) {
 
 	<?php
 		comment_form( array(
+			'fields' => array(
+				'author' => '<p class="comment-form-author">' . '<label for="author">您的大名:<span class="required">*</span></label> ' .
+					'<input id="author" name="author" type="text" value="" size="30" maxlength="245" /></p>',
+				'email'  => '<p class="comment-form-email"><label for="email">邮件地址:<span class="required">*</span></label> ' .
+					'<input id="email" name="email" type="text" value="" size="30" maxlength="100" aria-describedby="email-notes"  /></p>',
+			),
+            'class_form' => 'pure-form',
+			'title_reply' => '发表留言',
 			'title_reply_before' => '<h2 id="reply-title" class="comment-reply-title">',
 			'title_reply_after'  => '</h2>',
+			'label_submit' => '发表留言',
 		) );
 	?>
 

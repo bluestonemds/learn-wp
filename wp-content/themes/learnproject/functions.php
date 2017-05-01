@@ -19,7 +19,8 @@ function add_menuclass($ulclass)
 add_filter('wp_nav_menu', 'add_menuclass');
 
 add_theme_support('post-thumbnails');
-
+add_theme_support( 'automatic-feed-links' );
+add_theme_support( 'post-formats',  array ( 'aside', 'gallery', 'quote', 'image', 'video' ) );
 $i = 1;
 register_sidebar($args = array(
     'name' => sprintf(__('Sidebar %d'), $i),
